@@ -7,7 +7,7 @@
 [![OWASP Labs](https://img.shields.io/badge/owasp-lab%20project-f7b73c.svg)](https://www.owasp.org/index.php/OWASP_Project_Inventory#tab=Labs_Projects) 
 [![GitHub release](https://img.shields.io/github/release/WebGoat/WebGoat.svg)](https://github.com/WebGoat/WebGoat/releases/latest) 
 
-# Introduction
+# Introduction to course
 
 WebGoat is a deliberately insecure web application maintained by [OWASP](http://www.owasp.org/) designed to teach web
 application security lessons.
@@ -170,3 +170,4 @@ docker tag webgoat/webgoat-8.0 webgoat/webgoat-8.0:8.0
 docker login
 docker push webgoat/webgoat-8.0
 ```
+WebGoat should now be working and if it does not then you should follow the instructions again.
