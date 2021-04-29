@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.mockito:mockito-core
+    versions:
+    - 3.7.7
+    - 3.8.0
+  - dependency-name: org.webjars:bootstrap
+    versions:
+    - 4.6.0
+  - dependency-name: com.thoughtworks.xstream:xstream
+    versions:
+    - 1.4.15
+  - dependency-name: io.gatling.highcharts:gatling-charts-highcharts
+    versions:
+    - 3.5.0
+  - dependency-name: org.apache.commons:commons-lang3
+    versions:
+    - "3.11"
+  - dependency-name: org.webjars:jquery
+    versions:
+    - 3.5.1
